@@ -22,6 +22,23 @@ for i in range(n):
     else:
         overload = overload + [weight[i]]
 
+name = "Valluru Komal Sivaram"
+print("Given name:", name)
+
+slay = ""
+for c in name:
+    if c != " ":
+        slay += c
+
+L = len(slay)
+PLI = L % 3
+
+print("Length:", L)
+print("PLI:", PLI)
+
+if PLI == 1:
+    very_light = []
+
 print("Very Light:", very_light)
 print("Normal Load:", normal_load)
 print("Heavy Load:", heavy_load)
